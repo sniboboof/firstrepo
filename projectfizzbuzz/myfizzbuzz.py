@@ -8,7 +8,6 @@ def fizzbuzz(n):
     else:
         return str(n)
 
-<<<<<<< HEAD
 def fizzbuzzetc(n, sounds=[(3, "fizz"), (5, "buzz")]):
     foundasound = False
     noise = ""
@@ -16,15 +15,11 @@ def fizzbuzzetc(n, sounds=[(3, "fizz"), (5, "buzz")]):
         if n%asound[0]==0:
             noise = noise+asound[1]
             foundasound=True
-    
+
     if foundasound:
         return noise
     else:
         return str(n)
-=======
-#def fizzbuzzetc(n, ):
->>>>>>> 60719fef23cac22343f1af76153735218283fe89
-
 
 if __name__=="__main__":
     print "1:"+fizzbuzz(1)
@@ -33,7 +28,5 @@ if __name__=="__main__":
     print "15:"+fizzbuzz(15)
     print "42:"+fizzbuzz(42)
     print "45:"+fizzbuzz(45)
-<<<<<<< HEAD
     print "1600:"+fizzbuzzetc(1600, [(3, "fizz"), (5, "buzz"), (10, "dec"), (100, "cent"), (400, "quad")])
-=======
->>>>>>> 60719fef23cac22343f1af76153735218283fe89
+    print "1601:"+fizzbuzzetc(1601, [(3, "fizz"), (5, "buzz"), (10, "dec"), (100, "cent"), (400, "quad")])
