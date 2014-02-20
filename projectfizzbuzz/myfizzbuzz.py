@@ -1,10 +1,10 @@
 def fizzbuzz(n):
     if n % (3*5) == 0:
-        return "fizzbuzz"
+        return "FizzBuzz"
     elif n % 3 == 0:
-        return "fizz"
+        return "Fizz"
     elif n % 5 == 0:
-        return "buzz"
+        return "Buzz"
     else:
         return str(n)
 
