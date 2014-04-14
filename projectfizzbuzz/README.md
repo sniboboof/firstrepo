@@ -1,3 +1,5 @@
+VERY simple programming exercise for code fellows.
+
 myfizzbuzz release version 1.0
 
 1 file: myfizzbuzz.py
